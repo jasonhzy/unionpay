@@ -1,7 +1,7 @@
 ﻿<?php
 header ( 'Content-type:text/html;charset=utf-8' );
 include_once 'log.class.php';
-include_once 'SDKConfig1.php';
+include_once 'SDKConfig.php';
 // 初始化日志
 $log = new PhpLog ( SDK_LOG_FILE_PATH, "PRC", SDK_LOG_LEVEL );
 /**
@@ -140,7 +140,7 @@ function create_html($params, $action) {
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset={$encodeType}" />
 </head>
-<body  onload="javascript:document.pay_form.submit();">
+<body >
     <form id="pay_form" name="pay_form" action="{$action}" method="post">
 	
 eot;
