@@ -9,19 +9,19 @@
 	define('SDK_PAN_ENC',  0);;
 	
 	// 签名证书路径
-	define('SDK_SIGN_CERT_PATH',  UNIONPAY_PATH.'/certs/pinet_unionpay.pfx');
+	define('SDK_SIGN_CERT_PATH',  UNIONPAY_PATH.'/certs/cj/unionpay-chengjiu.pfx');
 	
 	// 签名证书密码
-	 define('SDK_SIGN_CERT_PWD',  'pinet');
+	 define('SDK_SIGN_CERT_PWD',  '119118');
 	
 	// 验签证书
-	define('SDK_VERIFY_CERT_PATH',  UNIONPAY_PATH.'/certs/UPOP_VERIFY.cer');
+	define('SDK_VERIFY_CERT_PATH',  UNIONPAY_PATH.'/certs/cj/UpopRsaCert.cer');
 	
 	// 密码加密证书
-	define('SDK_ENCRYPT_CERT_PATH',  UNIONPAY_PATH.'/certs/RSA2048_PROD_index_22.cer');
+	define('SDK_ENCRYPT_CERT_PATH',  UNIONPAY_PATH.'/certs/cj/verify_sign_acp.cer');
 	
 	// 验签证书路径
-	define('SDK_VERIFY_CERT_DIR',  UNIONPAY_PATH.'/certs/');
+	define('SDK_VERIFY_CERT_DIR',  UNIONPAY_PATH.'/certs/cj');
 	
 	// 前台请求地址
 	define('SDK_FRONT_TRANS_URL',  'https://gateway.95516.com/gateway/api/frontTransReq.do');

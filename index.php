@@ -20,23 +20,21 @@
 		// 初始化日志
 		$params = array(
 				'version' => '5.0.0',						//版本号
-				'encoding' => 'UTF-8',						//编码方式
+				'encoding' => 'utf-8',						//编码方式
 				'certId' => getSignCertId (),				//证书ID  
 				'txnType' => '01',							//交易类型	
 				'txnSubType' => '01',						//交易子类
-				'bizType' => '000000',						//业务类型
+				'bizType' => '000201',						//业务类型
 				'frontUrl' =>  SDK_FRONT_NOTIFY_URL,  		//前台通知地址
 				'backUrl' => SDK_BACK_NOTIFY_URL,			//后台通知地址	
 				'signMethod' => '01',						//签名方法
 				'channelType' => '08',						//渠道类型
 				'accessType' => '0',						//接入类型
-				'merId' => '898340148160231',				//商户代码
-//				'merId' => '898340183980105',				//商户代码测试
+				'merId' => '826340173990002',				//商户代码
 				'orderId' => date('Y').time(),						//商户订单号
 				'txnTime' => date('YmdHis'),					//订单发送时间
 				'txnAmt' => 1,						//交易金额 单位分
-				'currencyCode' => '156',					//交易币种
-				'defaultPayType' => '0001',			
+				'currencyCode' => '156'				//交易币种	
 		);
 		
 		// 签名
