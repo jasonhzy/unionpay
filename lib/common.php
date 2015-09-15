@@ -1,7 +1,7 @@
 ﻿<?php
 header ( 'Content-type:text/html;charset=utf-8' );
 include_once 'log.class.php';
-include_once 'SDKConfig.php';
+include_once 'SDKConfig1.php';
 // 初始化日志
 $log = new PhpLog ( SDK_LOG_FILE_PATH, "PRC", SDK_LOG_LEVEL );
 /**

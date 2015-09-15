@@ -1,5 +1,5 @@
 ﻿<?php
-include_once 'SDKConfig.php';
+include_once 'SDKConfig1.php';
 include_once 'PublicEncrypte.php';
 include_once 'common.php';
 include_once 'log.class.php';

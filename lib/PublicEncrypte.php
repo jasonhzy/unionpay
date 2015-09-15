@@ -1,5 +1,5 @@
 ﻿<?php
-	include_once 'SDKConfig.php';
+	include_once 'SDKConfig1.php';
 	include_once 'PinBlock.php';
 	
 	function EncryptedPin($sPin, $sCardNo ,$sPubKeyURL)
