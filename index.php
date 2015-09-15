@@ -32,12 +32,15 @@
 				'accessType' => '0',						//接入类型
 				'merId' => '898340148160231',				//商户代码
 //				'merId' => '898340183980105',				//商户代码测试
-				'orderId' => date('YmdHis').time(),						//商户订单号
+				'orderId' => date('Y').time(),						//商户订单号
 				'txnTime' => date('YmdHis'),					//订单发送时间
 				'txnAmt' => 1,						//交易金额 单位分
 				'currencyCode' => '156',					//交易币种
 				'defaultPayType' => '0001',			
 		);
+		
+		// 签名
+		sign ( $params );
 		
 		/*手机WAP支付方式*/
 		// 前台请求地址
