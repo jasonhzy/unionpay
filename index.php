@@ -36,7 +36,6 @@
 				'txnAmt' => 1,						//交易金额 单位分
 				'currencyCode' => '156'				//交易币种	
 		);
-		
 		// 签名
 		sign ( $params );
 		
